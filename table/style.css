@@ -12,6 +12,8 @@ div {
 
     padding-bottom: 12px;
     padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
     width: auto;
     border-right: black;
 }
@@ -36,7 +38,6 @@ body > div:nth-child(1) > a:nth-child(1){
 
 body > div:nth-child(1) > a:nth-child(2){
     border-top: none;
-
 }
 
 body > div:nth-child(1) > a:nth-child(3){
@@ -46,21 +47,71 @@ body > div:nth-child(1) > a:nth-child(3){
 
 body > div:nth-child(2) > a:nth-child(1){
     border-left: none;
+
+}
+
+body > div:nth-child(2) > a:nth-child(2){
+    border-left: none;
+
 }
 
 body > div:nth-child(2) > a:nth-child(3){
     border-right: none;
+
 }
 
 body > div:nth-child(3) > a:nth-child(1){
     border-left: none;
     border-bottom: none;
+
 }
 
 body > div:nth-child(3) > a:nth-child(2){
     border-bottom: none;
+
 }
 
 body > div:nth-child(3) > a:nth-child(3){
     border-right: none;
     border-bottom: none;
+
+}
+/* below this this is to change the color while hovering */
+
+body> div:nth-child(1) > a:nth-child(1):hover {
+    background-color:green;
+}
+
+body> div:nth-child(1) > a:nth-child(2):hover {
+    background-color:orange;
+}
+
+body> div:nth-child(1) > a:nth-child(3):hover {
+
+    background-color:red;
+}
+
+body> div:nth-child(2) > a:nth-child(1):hover {
+
+    background-color: teal;
+}
+
+body> div:nth-child(2) > a:nth-child(2):hover {
+    background-color: gray;
+}
+
+body> div:nth-child(2) > a:nth-child(3):hover {
+    background-color: brown;
+}
+
+body> div:nth-child(3) > a:nth-child(1):hover {
+    background-color: tomato;
+}
+
+body> div:nth-child(3) > a:nth-child(2):hover {
+    background-color: purple;
+}
+
+body> div:nth-child(3) > a:nth-child(3):hover {
+    background-color: indigo;
+}
