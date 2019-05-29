@@ -1,11 +1,66 @@
-* {
-    box-sizing: border-box;
+body{
+    border-radius: 100px; 
+    width:225px;
+    height: auto;
+    text-align:center;
+    overflow: hidden;
+    border-right: black;
+    padding-top: 50px;
 }
 
 div {
 
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: auto;
+    border-right: black;
 }
 
 a {
+    border: 1px solid black;
+    width:200px;
+    height: 100px;
+    font-size: 20px;
+    font-family: arial;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left:3px
+}
+
+body > div:nth-child(1) > a:nth-child(1){
+    border-top: none;
+    border-left: none;
+}
+
+body > div:nth-child(1) > a:nth-child(2){
+    border-top: none;
 
 }
+
+body > div:nth-child(1) > a:nth-child(3){
+    border-top: none;
+    border-right: none;
+}
+
+body > div:nth-child(2) > a:nth-child(1){
+    border-left: none;
+}
+
+body > div:nth-child(2) > a:nth-child(3){
+    border-right: none;
+}
+
+body > div:nth-child(3) > a:nth-child(1){
+    border-left: none;
+    border-bottom: none;
+}
+
+body > div:nth-child(3) > a:nth-child(2){
+    border-bottom: none;
+}
+
+body > div:nth-child(3) > a:nth-child(3){
+    border-right: none;
+    border-bottom: none;
