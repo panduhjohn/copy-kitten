@@ -1,4 +1,43 @@
-* { 
-	margin: 0;
+body {
+	padding: 0px;
+	text-align: center;
+	/* background: #404149; */
+	color: #0b1da7;
+	font-size: 30px;
+	border: #404149;
 	box-sizing: border-box;
+  }
+
+ul {
+	padding: 40px;
+	text-align: center;
+	background: white;
+	color: white;
+	font-size: 30px;
+	border: #404149;
+	height: 30px;
+	background-color:#404149;
+	list-style: none;
+	font-family: fantasy;
+
+  }  
+
+li {
+	float: left;
+
+
+	}
+	
+li :hover{
+	color: #4DA896;
+	text-decoration: none;
+
+}
+
+a {
+	padding-right: 300px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+
 }
